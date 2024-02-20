@@ -126,7 +126,7 @@ const Search = () => {
       searchText(lastSegment);
       searchBing();
     }
-  }, [location.search, searchType]);
+  }, [location.search, searchType, location.pathname]);
 
   return (
     <>
